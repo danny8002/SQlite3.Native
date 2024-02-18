@@ -2,7 +2,7 @@
 <package>
   <metadata minClientVersion="3.3">
     <id>SQLite3.Native</id>
-    <version>3.45.1</version>
+    <version>3.45.2</version>
     <title>SQLite Native Dll</title>
     <projectUrl>https://github.com/danny8002/SQlite3.Native</projectUrl>
     <authors>danny8002</authors>
