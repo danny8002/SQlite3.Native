@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+  <metadata minClientVersion="3.3">
+    <id>SQLite3.Native</id>
+    <version>3.45.1</version>
+    <title>SQLite Native Dll</title>
+    <projectUrl>https://github.com/danny8002/SQlite3.Native</projectUrl>
+    <authors>danny8002</authors>
+	<language>en-US</language>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SQLite Library (x86, x64) for CSharp PInvoke purpose</description>
+	<copyright></copyright>
+    <tags>sqlite, x86, x64</tags>
+	<iconUrl>https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/240px-Sqlite-square-icon.svg.png</iconUrl>
+	<license type="expression">MIT</license>
+    <readme>README.md</readme>
+  </metadata>
+  
+  <files>
+	<file src="build\*.props" target="build" />
+	<file src="README.md" target="README.md" />
+
+    <file src="3.45.1\win-x64\sqlite3.dll" target="runtimes\win-x64\native" />
+    <file src="3.45.1\win-x64\sqlite3.def" target="runtimes\win-x64\native" />
+	
+    <file src="3.45.1\win-x86\sqlite3.dll" target="runtimes\win-x86\native" />
+    <file src="3.45.1\win-x86\sqlite3.def" target="runtimes\win-x86\native" />
+  </files>
+  
+</package>
